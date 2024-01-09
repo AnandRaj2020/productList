@@ -1,3 +1,3 @@
 # productList
 
-https://github.com/AnandRaj2020/productList
+https://anandraj2020.github.io/productList/
