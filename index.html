@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <h1>My Products</h1>
+            <div class="sort-dropdown">
+                <label for="sortSelect">Sort By:</label>
+                <select id="sortSelect">
+                    <option value="popularity">Popularity</option>
+                    <option value="price">Price</option>
+                    <option value="title">Name</option>
+                    <option value="subcategory">Category</option>
+                </select>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="grid-container" id="productList"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
